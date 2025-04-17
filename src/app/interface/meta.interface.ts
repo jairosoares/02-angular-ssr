@@ -3,4 +3,5 @@ export interface MetaData {
   description?: string;
   keywords?: string;
   ogTitle?: string;
+  ogImage?: string;
 }

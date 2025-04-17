@@ -59,6 +59,13 @@ export class MetaService {
       });
     }
 
+    if (data.ogImage) {
+      this.meta.updateTag({
+        name: 'og:image',
+        content: data.ogImage
+      });
+    }
+
     if (data.keywords) {
       this.meta.updateTag({
         name: 'keywords',
